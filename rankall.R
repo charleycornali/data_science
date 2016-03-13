@@ -90,7 +90,7 @@ rankall <- function(outcome, num = "best") {
     }
     
     #   Creates a new data frame with the desired results
-    result_df <- data.frame(hospital = hospital, State = states_list) 
+    result_df <- data.frame(hospital = hospital, state = states_list) 
     #   Sets the row names to the state abbreviation
     rownames(result_df) <- result_df$State
     #   Return a data frame with the hospital names and the (abbreviated) state name
